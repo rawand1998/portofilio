@@ -1,3 +1,64 @@
-.navbar_container{
-
+.navbar_container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #212121;
+  align-items: center;
+  padding-left: 8%;
+  width: 92%;
+  position: fixed;
+}
+.logo span {
+  font-weight: 600;
+  color: #fff;
+  font-size: 18px;
+}
+.scrolled {
+  background-color: aqua;
+}
+.menu {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+.menu nav {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  gap: 1rem;
+}
+.menu nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+.menu .icons {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.menu .icons a {
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  padding: 5px;
+  background: rgba(217, 217, 217, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact_btn {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #fff;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+  padding: 18px 34px;
+  font-size: 18px;
+  margin: 15px 0px;
 }
