@@ -1,7 +1,7 @@
 .navbar_container {
   display: flex;
   justify-content: space-between;
-  background-color: #212121;
+  background-color: transparent;
   align-items: center;
   padding-left: 8%;
   width: 92%;
@@ -13,7 +13,25 @@
   font-size: 18px;
 }
 .scrolled {
-  background-color: aqua;
+  background-color: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(217, 217, 217, 0.1);
+}
+.scrolled nav li a {
+    color: #212121 !important
+}
+.scrolled .contact_btn{
+    background-color: #212121;
+    color: #fff;
+    border: 1px solid #ffff;
+
+}
+.scrolled .logo span{
+    color: #212121;
+}
+.scrolled .menu .icons a{
+    background-color: #fff;
+    color: #212121;
+    border: 1px solid #212121;
 }
 .menu {
   display: flex;
