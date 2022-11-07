@@ -1,5 +1,5 @@
 .skills_container {
-    background-color: #121212;
+  background-color: #121212;
   color: #fff;
   width: 70%;
   margin: auto;
@@ -7,18 +7,17 @@
   padding: 15px;
   height: 400px;
   margin-top: -25%;
-  
 }
-.slider_client{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50% !important;
+.slider_client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50% !important;
 }
-.skill_bg{
-    margin-top: 0;
-    padding: 260px 0 100px 0;
-   background-image: url("../img/banner-bg.png");
+.skill_bg {
+  margin-top: 0;
+  padding: 260px 0 100px 0;
+  background-image: url("../img/banner-bg.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;

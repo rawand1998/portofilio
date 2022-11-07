@@ -26,19 +26,18 @@ function Skills() {
   ];
   return (
     <div className="skill_bg">
-    <div className="skills_container">
-      <h3>My Skills</h3>
-      <Slider {...settings}>
-        {slider.map(({ img, name }) => (
-          <div key={name} className="slider_client">
-            <img src={img} alt="not found" />
-            <span>{name}</span>
-          </div>
-        ))}
-      </Slider>
+      <div className="skills_container">
+        <h3>My Skills</h3>
+        <Slider {...settings}>
+          {slider.map(({ img, name }) => (
+            <div key={name} className="slider_client">
+              <img src={img} alt="not found" />
+              <span>{name}</span>
+            </div>
+          ))}
+        </Slider>
+      </div>
     </div>
-    </div>
-
   );
 }
 
