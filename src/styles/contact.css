@@ -37,7 +37,7 @@ textarea::placeholder {
   color: #fff;
 }
 .send {
-    border-radius: 20px;
+  border-radius: 20px;
   color: #212121;
   border: none;
   width: 25%;
@@ -52,16 +52,10 @@ textarea::placeholder {
 }
 .contact_img img {
   width: 100%;
-  animation: updown 3s linear infinite;
+  animation: updowns 3s linear infinite alternate;
 }
-@keyframes updown {
-  0% {
-    transform: scale(1.2);
-  }
-  50% {
-    transform: scale(1);
-  }
+@keyframes updowns {
   100% {
-    transform: scale(1);
+    transform: scale(1.2);
   }
 }
