@@ -14,11 +14,11 @@ function Skills() {
     slidesToScroll: 1,
   };
   const slider = [
-    { name: "ReactJs", img: meter1 },
+    { name: "ReactJs", img: meter3 },
     { name: "HTML", img: meter1 },
     { name: "CSS", img: meter1 },
-    { name: "Firebase", img: meter1 },
-    { name: "Redux & Redux toolkit", img: meter1 },
+    { name: "Firebase", img: meter2 },
+    { name: "Redux & Redux toolkit", img: meter3 },
     { name: "Java Script", img: meter1 },
     { name: "Figma", img: meter1 },
     { name: "Material Ui", img: meter1 },
@@ -32,7 +32,7 @@ function Skills() {
           {slider.map(({ img, name }) => (
             <div key={name} className="slider_client">
               <img src={img} alt="not found" />
-              <span>{name}</span>
+              <span className="skills_name">{name}</span>
             </div>
           ))}
         </Slider>
