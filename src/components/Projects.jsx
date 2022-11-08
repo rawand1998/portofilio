@@ -19,7 +19,7 @@ function Projects() {
     { img: nulla, link: "https://github.com/rawand1998/nulla_dashboard" },
   ];
   return (
-    <div className="project_container">
+    <div className="project_container" id="projects">
       <h2>Projects</h2>
       <div className="project_card">
         {imgages.map(({ img, link }) => (

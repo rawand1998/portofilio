@@ -41,18 +41,18 @@ function Navbar() {
       <div className= "menu" ref={menuRef}>
         <nav>
           <li>
-            <a href="" onClick={hide_menu}>
+            <a href="#home" onClick={hide_menu}>
               {" "}
               Home
             </a>
           </li>
           <li>
-            <a href="" onClick={hide_menu}>
+            <a href="#skill" onClick={hide_menu}>
               Skills
             </a>
           </li>
           <li>
-            <a href="" onClick={hide_menu}>
+            <a href="#projects" onClick={hide_menu}>
               Projects
             </a>
           </li>

@@ -25,7 +25,7 @@ function Skills() {
     { name: "Git&GitHub", img: meter1 },
   ];
   return (
-    <div className="skill_bg">
+    <div className="skill_bg" id="skill">
       <div className="skills_container">
         <h3>My Skills</h3>
         <Slider {...settings}>
