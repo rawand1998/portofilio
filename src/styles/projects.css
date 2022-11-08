@@ -28,3 +28,8 @@
   height: 100%;
   border-radius: 25px;
 }
+@media only screen and (max-width: 768px) {
+  .project_container {
+    height: 400px;
+  }
+}
