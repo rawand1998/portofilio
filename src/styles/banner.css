@@ -21,7 +21,7 @@
 }
 .banner_continer .header_img img {
   width: 100%;
-  animation: updown 3s linear infinite;
+  animation: updown 3s linear infinite alternate;
 }
 @keyframes updown {
   0% {
